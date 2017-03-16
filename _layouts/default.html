@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+   <!--[if lt IE 9]>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+   <![endif]-->
+ </head>
+
+ <body>
+  <script src="js/scripts.js"></script>
+   <div class="container">
+
+  <div class="top">
+  <h1>Tony Caruso</h1>
+  <p>Computer Science Major at the Paul G. Allen School of Computer Science</p>
+  </div>
+     
+    <nav>
+	    <ul>
+	      <li><a href="/">Home</a></li>
+		    <li><a href="/about">About</a></li>
+	      <li><a href="/cv">CV</a></li>
+	      <li><a href="/blog">Blog</a></li>
+	   </ul>
+		</nav>
+    
+     {{content}}
+  <footer>
+     <p>Contact me at <a href="mailto:tcaruso@cs.washington.edu"> tcaruso@cs.washington.edu</a></p>
+  </footer>
+ </div>
+ </body>
+ </html> 
